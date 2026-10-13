@@ -1,2 +1,3 @@
 @echo off
-start "" wscript.exe "%~dp0neovide-msvc.vbs"
+wscript.exe "%~dp0neovide-msvc.vbs"
+exit /b
