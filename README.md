@@ -28,9 +28,7 @@ This project provides a lightweight solution to that limitation. Although the in
 ### Setup Steps
 
 1. **Copy Directory:** Copy the `Neovide MSVC/` directory to your desired program folder (e.g., `C:/Program Files/Neovide MSVC/`).
-
 2. **System PATH:** Add `C:/Program Files/Neovide MSVC/` to your User or System `PATH` environment variable.
-
 3. **Create a Shortcut:** Create a shortcut with the following target to launch Neovide silently without leaving a background terminal open:
 
 ```cmd
@@ -39,7 +37,7 @@ C:\Windows\System32\wscript.exe "C:\Program Files\Neovide MSVC\neovide.vbs"
 
 ## Execution
 
-```pwsh
+```cmd
 neovide-msvc .
 ```
 
